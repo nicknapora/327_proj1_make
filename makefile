@@ -9,6 +9,7 @@ main.o: myfunc.h
 
 myfunc.o: myfunc.h
 
-
+clean:
+	rm -f *.o
 
 
